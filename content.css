@@ -102,11 +102,10 @@ text-align: left;
 
 .button:hover {
   /* The following line makes the underline only as wide as the text */
-  /* background-size: calc(100% - 2em) 5px, auto; */
   background-size: 100% 5px, auto;
 }
 
-
+/*MEDIA QUERIES*/
 @media (max-width:1175px){
     
     .info{

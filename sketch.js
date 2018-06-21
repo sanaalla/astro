@@ -1,5 +1,4 @@
-
-
+//get the code to load on opening window
 window.onload = function(){
 
 //THIS IS THE WEIRD GAME ANIMATION
@@ -28,6 +27,7 @@ var bar1Timeline = anime.timeline({
   loop,
   direction
 })
+//this is moving the element up/down for positioning, within the timeline
 ballTimeline
 .add({
   targets: '.ball',
@@ -88,7 +88,7 @@ var cW;
 var bgColor = "#3d325c";
 var animations = [];
 var circles = [];
-
+//this is setting up the colors that i'm using for the background splashy
 var colorPicker = (function() {
   var colors = ["#FF1461", "#53bdff", "#b929ae", "#282741"];
   var index = 0;
@@ -249,8 +249,7 @@ var resizeCanvas = function() {
 (function init() {
   resizeCanvas();
   if (window.CP) {
-    // CodePen's loop detection was causin' problems
-    // and I have no idea why, so...
+ 
     window.CP.PenTimer.MAX_TIME_IN_LOOP_WO_EXIT = 6000; 
   }
   window.addEventListener("resize", resizeCanvas);

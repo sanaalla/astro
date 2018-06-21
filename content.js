@@ -1,7 +1,7 @@
 window.onload = function(){
     
     
-//THIS IS THE WEIRD GAME ANIMATION
+//THIS IS THE circles on the content page
 var loop = true;
 var easing = 'linear';
 var direction = 'alternate';
