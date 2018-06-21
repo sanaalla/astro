@@ -59,11 +59,9 @@ p{
     margin-top: 20%;
     margin-left: 36%;
     margin-right: 36%;
-    text-align: left;
     padding-top:5%;
     opacity: .3;
-    
-    
+text-align: left;    
   background-image: linear-gradient(#ffffff, #ffffff);
   background-size: 0 2px, auto;
   background-repeat: no-repeat;
@@ -106,4 +104,37 @@ p{
   /* The following line makes the underline only as wide as the text */
   /* background-size: calc(100% - 2em) 5px, auto; */
   background-size: 100% 5px, auto;
+}
+
+
+@media (max-width:1175px){
+    
+    .info{
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .container{
+        margin-left: 29%;
+    }
+    .backbutton{
+        margin-left:-10%;
+    }
+}
+
+@media (max-width:670px){
+    
+    .container{
+        margin-left:10%;
+    }
+    
+    .info{
+        margin-left:8%;
+        margin-right: 8%;
+    }
+}
+
+@media(max-width:445px){
+    .container{
+        margin-left: 0;
+    }
 }

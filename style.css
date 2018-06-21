@@ -30,13 +30,13 @@ h3 {
 
 svg {
     margin-top: 20%;
-    margin-left: -2%;
+    margin-left: -5%;
     width:80%;
 }
 
 /*STYLE FOR THE GAME ANIMATION*/
 .container {
-    margin-left: 30%;
+    margin-right: -20px;
     position: relative;
     z-index: 2;
   width: 500px;
@@ -92,5 +92,27 @@ svg {
 }
 
 /*MEDIA QUERIES*/
+
+@media(min-width:820px){
+    
+    svg{
+        margin-left: 2%;
+    }
+    .container {
+    margin-left: 20%;
+    position: relative;
+    z-index: 2;
+  width: 500px;
+  transform: translateY(100px);    }
+    
+    
+    
+}
+@media(max-width:820px){
+    .container{
+        display: none;
+    }
+}
+
 
 
