@@ -1,0 +1,109 @@
+/*STYLE FOR THE CONTENT PAGE*/
+
+body
+{
+    font-family: 'Muli', sans-serif;
+
+    background-color: #3d325c;
+    text-align: center;
+      position: relative;
+margin: 0;
+
+}
+
+
+.body {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.container {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 36%;
+    z-index: 1;
+  transform: translateY(200px);
+}
+.bar {
+width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.bar1 {
+  float: left;
+}
+.bar2 {
+  float: left;
+}
+.bar3 {
+  float: left;
+}
+
+.bar4 {
+  float: left;
+}
+/*info styles*/
+p{
+    font-size: 18px;
+    color: #ffdada;
+    line-height: 2;
+}
+.info {
+    position: relative;
+    z-index: 5;
+    margin-top: 20%;
+    margin-left: 36%;
+    margin-right: 36%;
+    text-align: left;
+    padding-top:5%;
+    opacity: .3;
+    
+    
+  background-image: linear-gradient(#ffffff, #ffffff);
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+.info:hover {
+       position: relative;
+    z-index: 5;
+    opacity: 1;
+      background-size: 100% 5px, auto;
+
+}
+
+
+
+/*THIS SHOULD BE THE BUTTON STYLE*/
+
+.backbutton {
+}
+
+.button {
+    
+  font: 1em Century Gothic, sans-serif;
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  
+  /* Set up the hover */
+  /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(#FF1461, #b929ae);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+.button:hover {
+  /* The following line makes the underline only as wide as the text */
+  /* background-size: calc(100% - 2em) 5px, auto; */
+  background-size: 100% 5px, auto;
+}

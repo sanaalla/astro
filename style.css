@@ -1,0 +1,96 @@
+canvas {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer; 
+}
+
+.body {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+        font-family: 'Muli', sans-serif;
+color: white;
+    
+    text-align: center;
+margin: 0;
+}
+
+h3 {
+    opacity: .4;
+}
+
+
+/*STYLE FOR ANIMATING THE LOGO*/
+
+
+svg {
+    margin-top: 20%;
+    margin-left: -2%;
+    width:80%;
+}
+
+/*STYLE FOR THE GAME ANIMATION*/
+.container {
+    margin-left: 30%;
+    position: relative;
+    z-index: 2;
+  width: 500px;
+  transform: translateY(200px);
+}
+.bar {
+  background: #FFFFFF;
+  width: 10px;
+  height: 100px;
+}
+.bar1 {
+  float: left;
+}
+.bar2 {
+  float: right;
+}
+.ball {
+  background: #FFFFFF;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 45px;
+  left: 10px;
+}
+
+
+
+
+
+/*THIS SHOULD BE THE BUTTON STYLE*/
+
+
+.button {
+  font: 1em Century Gothic, sans-serif;
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  
+  /* Set up the hover */
+  /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(#FF1461, #b929ae);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+.button:hover {
+  /* The following line makes the underline only as wide as the text */
+  /* background-size: calc(100% - 2em) 5px, auto; */
+  background-size: 100% 5px, auto;
+}
+
+/*MEDIA QUERIES*/
+
+
